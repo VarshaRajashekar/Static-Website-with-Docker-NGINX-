@@ -1,2 +1,18 @@
 # Static-Website-with-Docker-NGINX-
 Containerizing a simple static website using Docker.
+
+### Build Docker Image
+docker build -t static-site .
+
+### 2. Run Container
+docker run -d -p 8080:80 static-site
+
+### 3. output
+http://localhost:8080
+
+### Docker Concept Used
+- Containerization
+- Image layering
+- NGINX base image
+
+- <img width="1100" height="587" alt="image" src="https://github.com/user-attachments/assets/dbf60a22-f76b-40ae-9752-4b76a372ac2f" />
