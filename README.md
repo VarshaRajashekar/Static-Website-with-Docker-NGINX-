@@ -8,7 +8,8 @@ docker build -t static-site .
 docker run -d -p 8080:80 static-site
 
 ### 3. output
-http://localhost:8080
+<img width="1600" height="1178" alt="image" src="https://github.com/user-attachments/assets/91d2d000-66f5-4f7f-ac21-4956f97691cf" />
+
 
 ### Docker Concept Used
 - Containerization
